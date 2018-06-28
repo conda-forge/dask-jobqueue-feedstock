@@ -1,6 +1,6 @@
 {% set name = "dask-jobqueue" %}
-{% set version = "0.1.1" %}
-{% set sha256 = "4ad6dc9939ef0d2b8b0632ef70b9084277a4de2943b4ea29d73056a4e8f92b07" %}
+{% set version = "0.2.0" %}
+{% set sha256 = "a9bf2025db5230ad1680fd5f6a88de7edac57923a9bf3c99191789a32272528f" %}
 
 package:
   name: {{ name|lower }}
@@ -21,8 +21,8 @@ requirements:
     - pip
   run:
     - python
-    - dask
-    - distributed
+    - dask>=0.18.1
+    - distributed>=1.22
     - docrep
 
 test:
