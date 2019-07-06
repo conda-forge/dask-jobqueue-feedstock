@@ -20,7 +20,7 @@ requirements:
     - python
     - pip
   run:
-    - python
+    - python>=3.5
     - dask>=1.2.0
     - distributed>=1.27
     - docrep
