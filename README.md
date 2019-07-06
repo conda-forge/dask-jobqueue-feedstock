@@ -7,10 +7,10 @@ Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Easy deployment of Dask Distributed on job queuing systems like PBS, Slurm, and SGE.
+Summary: Easy deployment of Dask Distributed on job queuing systems like PBS, Slurm, LSF and SGE.
 
 Easy deployment of Dask Distributed on job queuing systems such as PBS,
-Slurm, or SGE.
+Slurm, LSF or SGE.
 
 
 Current build status
