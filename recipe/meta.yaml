@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
@@ -21,8 +21,8 @@ requirements:
     - pip
   run:
     - python>=3.5
-    - dask>=1.2.0
-    - distributed>=1.27
+    - dask>=2
+    - distributed>=2.1
     - docrep
 
 test:
