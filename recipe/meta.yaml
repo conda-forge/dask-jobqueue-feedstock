@@ -1,6 +1,6 @@
 {% set name = "dask-jobqueue" %}
-{% set version = "0.6.1" %}
-{% set sha256 = "1bc47c29520742705f151aec4a77a84fe207de8233337cdca6bd7fb9562be34d" %}
+{% set version = "0.6.2" %}
+{% set sha256 = "44c1b32a02f3f07edc3bc4e0e928d302bc30d28c19d90882856fc822cff30baa" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
