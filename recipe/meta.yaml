@@ -17,13 +17,12 @@ build:
 
 requirements:
   host:
-    - python>=3.5
+    - python >=3.5
     - pip
   run:
-    - python>=3.5
-    - dask>=2
-    - distributed>=2.1
-    - docrep
+    - python >=3.5
+    - dask-core >=2.5.2
+    - distributed >=2.5.2
 
 test:
   imports:
