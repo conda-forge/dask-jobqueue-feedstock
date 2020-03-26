@@ -30,7 +30,7 @@ test:
 
 about:
   home: https://github.com/dask/dask-jobqueue
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
   summary: 'Easy deployment of Dask Distributed on job queuing systems like PBS, Slurm, LSF and SGE.'
