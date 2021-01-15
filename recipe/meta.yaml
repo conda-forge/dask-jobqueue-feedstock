@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -21,8 +21,8 @@ requirements:
     - pip
   run:
     - python >=3.5
-    - dask-core >=2.5.2
-    - distributed >=2.5.2
+    - dask-core >=2.19
+    - distributed >=2.19
 
 test:
   imports:
