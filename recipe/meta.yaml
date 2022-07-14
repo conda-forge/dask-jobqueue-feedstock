@@ -17,12 +17,12 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
   run:
-    - python >=3.6
-    - dask-core >=2.19
-    - distributed >=2.19
+    - python >=3.7
+    - dask-core >=2.23
+    - distributed >=2.23
 
 test:
   imports:
