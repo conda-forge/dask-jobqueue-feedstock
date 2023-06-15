@@ -1,11 +1,11 @@
-About dask-jobqueue
-===================
+About dask-jobqueue-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dask-jobqueue-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/dask/dask-jobqueue
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dask-jobqueue-feedstock/blob/main/LICENSE.txt)
 
 Summary: Easy deployment of Dask Distributed on job queuing systems like PBS, Slurm, LSF and SGE.
 
