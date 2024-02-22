@@ -1,6 +1,6 @@
 {% set name = "dask-jobqueue" %}
-{% set version = "0.8.2" %}
-{% set sha256 = "d35407a05a0534347c5d958ae749b9f8535bec529857d013b6e5649cde43914a" %}
+{% set version = "0.8.5" %}
+{% set sha256 = "f6923f9d7ff894b96efbf706118b2cd37fd37751d567e91c22dfd3e2eaa93202" %}
 
 package:
   name: {{ name|lower }}
