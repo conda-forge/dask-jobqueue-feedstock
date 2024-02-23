@@ -23,6 +23,7 @@ requirements:
     - python >=3.8
     - dask-core >=2022.02.0
     - distributed >=2022.02.0
+    - setuptools
 
 test:
   imports:
