@@ -153,6 +153,7 @@ Feedstock Maintainers
 
 * [@andersy005](https://github.com/andersy005/)
 * [@guillaumeeb](https://github.com/guillaumeeb/)
+* [@jacobtomlinson](https://github.com/jacobtomlinson/)
 * [@jhamman](https://github.com/jhamman/)
 * [@lesteve](https://github.com/lesteve/)
 * [@mrocklin](https://github.com/mrocklin/)
