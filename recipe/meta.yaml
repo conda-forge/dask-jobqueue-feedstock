@@ -17,10 +17,10 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python >=3.10
     - pip
   run:
-    - python >=3.8
+    - python >=3.10
     - dask-core >=2022.02.0
     - distributed >=2022.02.0
     - setuptools
